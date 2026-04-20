@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Success</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* BACKGROUND */
+body{
+margin:0;
+font-family:'Inter',sans-serif;
+background: radial-gradient(circle at top, #1e3a8a, #020617);
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+}
+
+/* CARD */
+.success-card{
+background:#ffffff;
+width:90%;
+max-width:600px;
+border-radius:14px;
+padding:40px;
+text-align:center;
+box-shadow:0 20px 60px rgba(0,0,0,0.3);
+animation:fadeIn .6s ease;
+}
+
+/* LOGO */
+.success-logo{
+width:80px;
+margin-bottom:15px;
+}
+
+/* TITLE */
+.success-title{
+font-size:26px;
+font-weight:700;
+color:#1e3a8a;
+margin-bottom:10px;
+}
+
+/* SUBTEXT */
+.success-sub{
+color:#64748b;
+font-size:15px;
+margin-bottom:25px;
+}
+
+/* HIGHLIGHT */
+.highlight{
+color:#0ea5e9;
+font-weight:600;
+}
+
+/* MESSAGE */
+.success-msg{
+font-size:15px;
+color:#334155;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+/* BUTTON */
+.success-btn{
+display:inline-block;
+padding:12px 28px;
+background:linear-gradient(135deg,#6366f1,#a855f7);
+color:#fff;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.success-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 30px rgba(168,85,247,0.5);
+}
+
+/* ANIMATION */
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+/* CHECK ICON */
+.checkmark{
+font-size:50px;
+color:#22c55e;
+margin-bottom:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="success-card">
+
+<div class="checkmark">✔</div>
+
+<div class="success-title">
+Nomination Submitted Successfully
+</div>
+
+<div class="success-sub">
+Thank you for registering 🎉
+</div>
+
+<div class="success-msg">
+Your nomination for <span class="highlight">2nd Edition CFO Summit & Awards 2026</span> has been received successfully.
+<br><br>
+Our team will get in touch with you shortly.
+<br>
+For queries, contact: <b>75068 88915</b>
+</div>
+
+<a href="index.html" class="success-btn">Back to Home</a>
+
+</div>
+
+</body>
+</html>

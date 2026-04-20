@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friend Showcase 😎</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Main Section */
+.hero {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  max-width: 350px;
+  width: 90%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Image */
+.hero img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.hero img:hover {
+  transform: scale(1.05);
+}
+
+/* Text */
+.hero h2 {
+  margin: 10px 0;
+}
+
+.hero p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Button */
+.hero button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: #5a67d8;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+  <img src="assets/0aa4bd03-c2ea-4042-9278-e3dee852f153.jpeg" alt="My Friend">
+  
+  <p>Strong pose, strong vibes 💪</p>
+  <button onclick="alert('Legend spotted! 🔥')">Click Me</button>
+</div>
+
+</body>
+</html>
